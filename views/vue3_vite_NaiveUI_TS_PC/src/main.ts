@@ -4,7 +4,7 @@ import router from './router'
 import { piniaInstall } from '@/store'
 import '@/router/permission'
 import '@/styles/index.less'
-import AlertAndErrorLayerInstall from './AlertAndErrorLayer/AlertAndErrorLayerInstall'
+import AlertAndErrorLayerInstall from './common/AlertAndErrorLayerInstall'
 import config from '@/config/install'
 import 'virtual:uno.css'
 

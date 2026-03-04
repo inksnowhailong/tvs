@@ -1,4 +1,4 @@
-import { successHandle, errorHandle, requestLoadding } from '@/AlertAndErrorLayer/RequestError/requestError'
+import { successHandle, errorHandle, requestLoadding } from '@/common/RequestError/requestError'
 import { userStore } from '@/store/modules/userStore'
 import axios, { AxiosRequestConfig } from 'axios'
 import { RepeatRequest } from './repeatRequest'

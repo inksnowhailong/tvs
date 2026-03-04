@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm --filter inksnow-vue3-vite-ts exec eslint .)",
+      "Bash(pnpm --filter inksnow-vue3-vite-ts exec prettier --check package.json)"
+    ]
+  }
+}

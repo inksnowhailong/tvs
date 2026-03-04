@@ -11,18 +11,15 @@
     "build:test": "vite build --mode test",
     "build:pro": "vite build --mode production",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "repository": {
     "type": "git",
     "url": " https://github.com/inksnowhailong/project-templates"
-  },
-  "lint-staged": {
-    "*.{ts,vue}": [
-      "eslint  --fix --cache",
-      "prettier --write",
-      "git add ."
-    ]
   },
   "dependencies": {
     "@vicons/ionicons5": "^0.13.0",

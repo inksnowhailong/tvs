@@ -4,7 +4,6 @@
     <NDialogProvider>
       <NMessageProvider>
         <MessageContent />
-        <DialogContent />
         <router-view></router-view>
       </NMessageProvider>
     </NDialogProvider>
@@ -12,9 +11,8 @@
 </template>
 
 <script setup lang="ts">
-import LoadingContent from '@/AlertAndErrorLayer/LoadingContent.vue'
-import MessageContent from '@/AlertAndErrorLayer/MessageContent/MessageContent.vue'
-import DialogContent from '@/AlertAndErrorLayer/dialog/DialogContent.vue'
+import LoadingContent from '@/common/LoadingContent.vue'
+import MessageContent from '@/common/MessageContent/MessageContent.vue'
 import { NDialogProvider, NLoadingBarProvider, NMessageProvider } from 'naive-ui'
 import { mainStore } from './store/modules/mainStore'
 import { defineOptions } from 'vue'

@@ -37,14 +37,6 @@ const privateRouter: RouteRecordRaw[] = [
           title: '首页'
         }
       },
-      {
-        path: '/demo',
-        name: 'demo',
-        component: () => import('@/views/demo/index.vue'),
-        meta: {
-          title: 'demo页面'
-        }
-      }
     ]
   }
 ]

@@ -1,19 +1,43 @@
 export default {
-  printWidth: 150, // 单行输出（不折行）的（最大）长度
-  tabWidth: 2, // 每个缩进级别的空格数
-  tabs: false, // 使用制表符 (tab) 缩进行而不是空格 (space)。
-  semi: false, // 是否在语句末尾打印分号
-  singleQuote: true, // 是否使用单引号
-  quoteProps: 'as-needed', // 仅在需要时在对象属性周围添加引号
-  jsxSingleQuote: false, // jsx 不使用单引号，而使用双引号
-  trailingComma: 'none', // 去除对象最末尾元素跟随的逗号
-  bracketSpacing: true, // 是否在对象属性添加空格
-  jsxBracketSameLine: true, // 将 > 多行 JSX 元素放在最后一行的末尾，而不是单独放在下一行（不适用于自闭元素）,默认false,这里选择 > 不另起一行
-  arrowParens: 'always', // 箭头函数，只有一个参数的时候，也需要括号
-  proseWrap: 'always', // 当超出print width（上面有这个参数）时就折行
-  htmlWhitespaceSensitivity: 'ignore', // 指定 HTML 文件的全局空白区域敏感度, "ignore" - 空格被认为是不敏感的
-  vueIndentScriptAndStyle: false, // 在VUE文件中不要缩进脚本和样式标记
-  stylelintIntegration: true,
+  // 一行最大长度，超出后会自动换行
+  printWidth: 150,
+
+  // 缩进宽度：2 空格
+  tabWidth: 2,
+
+  // 用空格缩进，不使用 tab
+  useTabs: false,
+
+  // 行尾不加分号（与你当前代码风格一致）
+  semi: false,
+
+  // 字符串优先单引号
+  singleQuote: true,
+
+  // 对象/数组末尾不加逗号
+  trailingComma: 'none',
+
+  // 对象字面量保留空格：{ a: 1 }
+  bracketSpacing: true,
+
+  // 多行标签时，让 > 紧跟最后一行
+  bracketSameLine: true,
+
+  // 箭头函数参数始终保留括号：(x) => x
+  arrowParens: 'always',
+
+  // Markdown 文本按 printWidth 自动换行
+  proseWrap: 'always',
+
+  // HTML 空白敏感度：忽略（避免模板中因空白触发频繁改动）
+  htmlWhitespaceSensitivity: 'ignore',
+
+  // Vue SFC 中 script/style 不额外缩进
+  vueIndentScriptAndStyle: false,
+
+  // 行尾符号跟随系统环境（跨平台协作更少冲突）
   endOfLine: 'auto',
-  plugins:['prettier-plugin-css-order',"prettier-plugin-organize-attributes"]
+
+  // 插件：CSS 属性排序 + Vue/HTML 属性排序整理
+  plugins: ['prettier-plugin-css-order', 'prettier-plugin-organize-attributes']
 }
