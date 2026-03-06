@@ -10,7 +10,7 @@ const loading = new requestLoadding()
 
 /**baseUrl配置 */
 const baseURLObj: Record<string, string> = {
-  default: import.meta.env.VITE_JAVA_API_URL
+  default: import.meta.env.VITE_API_URL
   // usercenter: import.meta.env.VITE_UCENTER_API_URL
 }
 
