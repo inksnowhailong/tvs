@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="z-layout">
+  <div id="layout">
     <router-view></router-view>
   </div>
 </template>

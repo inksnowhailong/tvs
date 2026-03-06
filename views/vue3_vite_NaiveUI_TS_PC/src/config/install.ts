@@ -1,18 +1,9 @@
 import { App } from 'vue'
 import { Router } from 'vue-router'
-import { IframeBus } from './iframeBus'
+
 import { config } from './config'
-// 创建一个 iframe 实例
-export const iframeBus = new IframeBus(config.iframeBus, config.iframeBus.iframeTaskObj, config.iframeBus.iframeMethods)
 
 export default function (app: App, router: Router) {
-  /**项目信息 */
-  window.$info = () => {
-    const userInput = window.prompt('请输入内容访问key：')
-    if (userInput === config.info.access) {
-      console.log(config.info)
-    }
-  }
   /**安全防护 xss */
   if (config.safe.xss.csp.enable) {
     const meta = document.createElement('meta')

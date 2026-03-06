@@ -1,7 +1,6 @@
 /// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import eslintPlugin from 'vite-plugin-eslint'
 import Components from 'unplugin-vue-components/vite' // 按需自动加载UI组件
 import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from 'unplugin-auto-import/vite' //按需自动加载依赖包
@@ -13,10 +12,6 @@ export default defineConfig({
   plugins: [
     UnoCSS(), // 必须在使用的vue/react等框架之前，因为使用了presetAttributify
     vue(),
-    eslintPlugin({
-      cache: true,
-      emitWarning: false //关闭vite控制台warning
-    }),
     Components({
       dts: true,
       dirs: ['src/components'], // 按需加载的文件夹
@@ -28,9 +23,6 @@ export default defineConfig({
         'vue',
         'vue-router',
         'pinia',
-        {
-          '@/config/install': ['iframeBus']
-        }
       ],
       dirs: ['src/components/**'],
       dts: true

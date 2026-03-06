@@ -1,37 +1,5 @@
-import { IframeMethodType } from './iframeBus'
 
 export const config = {
-  /** 项目信息是否加入到后门 */
-  info: {
-    /** 访问密钥,除非特殊需求，否则请一般不要修改这个，方便后续二次开发的人获取这些信息 */
-    access: 'testKey',
-    /**测试地址 */
-    releaseUrl: '',
-    /**生产地址 */
-    productionUrl: '',
-    /**git地址 */
-    git: '',
-    /**gitLab地址 */
-    gitLab: '',
-    /**蓝湖地址，放置原型和设计图地址 */
-    lanhu: ''
-  },
-  /**iframe通信总线配置 */
-  iframeBus: {
-    enable: true,
-    /**
-     * @description: 要监听的message事件
-     * @params onlyBus 只监听iframeBus的事件
-     * @params all 监听所有的事件，iframeBus 之外的message会被console.log信息
-     */
-    listen: 'onlyBus' as 'onlyBus' | 'all',
-    // 每次unInstall 是否将储存的内容也全部清空 通常来说不需要，除非你有特殊需求
-    clear: false,
-    /** 预设将要发送的一些任务 可选，写了更清晰，不写也不报错 ,key是任务type，value是任务desc，详细请参考./iframeBus.ts*/
-    iframeTaskObj: {} as Record<string, any>,
-    /**预设，监听iframe要执行的任务 */
-    iframeMethods: {} as Record<string, IframeMethodType>
-  },
   /**安全防护  前端解决和预防 */
   safe: {
     /**xss防护 */
