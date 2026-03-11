@@ -1,34 +1,36 @@
 {
-    "compilerOptions": {
-        "isolatedModules": true,
-        "target": "esnext",
-        "experimentalDecorators": true,
-        "useDefineForClassFields": true,
-        "module": "esnext",
-        "moduleResolution": "bundler",
-        "strict": true,
-        "jsx": "preserve",
-        "sourceMap": true,
-        "resolveJsonModule": true,
-        "esModuleInterop": true,
-        "skipLibCheck": true,
-        "lib": ["esnext"],
-        "baseUrl": ".",
-        "paths": {
-            "@/*": ["src/*"]
-        },
-        "types": ["@dcloudio/types", "@uni-helper/uni-app-types"]
-    },
-    "include": [
-        "src/*.ts",
-        "src/*.d.ts",
-        "src/**/*.ts",
-        "src/**/*.d.ts",
-        "src/**/*.tsx",
-        "src/**/*.vue",
-        "components.d.ts",
-        "auto-imports.d.ts",
-        "uno.config.ts",
-        "vite.config.ts"
-    ]
+  "compilerOptions": {
+    "isolatedModules": true, // 启用每个文件作为单独的模块
+    "target": "esnext", // 指定 ECMAScript 目标版本
+    "experimentalDecorators": true, // 启用实验性的装饰器特性
+    "useDefineForClassFields": true, // 使用 `define` 而不是 `set` 来初始化类字段
+    "module": "ESNext", // 指定模块代码生成方式
+    "moduleResolution": "bundler", // Vite/ESBuild 风格的模块解析，支持省略扩展名
+    "strict": true, // 启用所有严格类型检查选项
+    "jsx": "preserve", // 保留 JSX 以供后续的转换操作
+    "sourceMap": false, // 生成相应的 .map 文件
+    "resolveJsonModule": true, // 允许导入 JSON 文件
+    "esModuleInterop": true, // 启用对 ES 模块语义的互操作性
+    "skipLibCheck": true, // 跳过声明文件的类型检查
+    "lib": ["esnext", "dom"], // 指定要包含在编译中的库文件
+    "types": ["vite/client", "unplugin-icons/types/vue","@dcloudio/types","uview-pro/types"], // 包含的类型声明文件
+    "baseUrl": "./", // 解析非相对路径的基础目录
+    "paths": {
+      "@/*": ["src/*"]
+    }, // 配置TS识别 @ 路径别名
+    // "ignoreDeprecations":"6.0" // 忽略弃用警告
+    "noEmitOnError": false // 即使有错误也生成输出文件
+  },
+  "include": [
+    "src/*.ts", // 包含的文件
+    "src/*.d.ts", // 包含的声明文件
+    "src/**/*.ts", // 包含的所有 TypeScript 文件
+    "src/**/*.d.ts", // 包含的所有声明文件
+    "src/**/*.tsx", // 包含的所有 TSX 文件
+    "src/**/*.vue", // 包含的所有 Vue 文件
+    "components.d.ts", // 包含的组件声明文件
+    "auto-imports.d.ts", // 包含的自动导入声明文件
+    "env.d.ts", // 全局类型增强
+    "uno.config.ts", // 包含的 uno 配置文件
+  ]
 }
