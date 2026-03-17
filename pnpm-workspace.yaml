@@ -2,3 +2,4 @@ packages:
   - "views/*"
   - "core/*"
   - "utils/*"
+  - "public/*"
