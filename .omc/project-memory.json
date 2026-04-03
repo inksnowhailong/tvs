@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1775187786103,
+  "projectRoot": "/Users/zhanghailong/Desktop/coding/turbo-vertical-space",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": ">=18",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pnpm",
+    "runtime": "Node.js 18"
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": null,
+    "lintCommand": "pnpm lint",
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "build": "turbo run build",
+      "dev": "turbo run dev",
+      "lint": "turbo run lint",
+      "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+      "check-types": "turbo run check-types"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": true,
+    "workspaces": [],
+    "mainDirectories": [
+      "public"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "core": {
+      "path": "core",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1775187786071,
+      "keyFiles": []
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1775187786071,
+      "keyFiles": [
+        "turborepo-logo.png"
+      ]
+    },
+    "utils": {
+      "path": "utils",
+      "purpose": "Utility functions",
+      "fileCount": 0,
+      "lastAccessed": 1775187786082,
+      "keyFiles": []
+    },
+    "views": {
+      "path": "views",
+      "purpose": "View templates",
+      "fileCount": 1,
+      "lastAccessed": 1775187786093,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": ".claude/skills/tvs-cc-migrator/scripts/backup.mjs",
+      "accessCount": 7,
+      "lastAccessed": 1775203049619,
+      "type": "file"
+    },
+    {
+      "path": "skills/cc-migrator/scripts/backup.sh",
+      "accessCount": 3,
+      "lastAccessed": 1775188556257,
+      "type": "file"
+    },
+    {
+      "path": "skills/cc-migrator/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1775200155092,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/tvs-cc-migrator/SKILL.md",
+      "accessCount": 3,
+      "lastAccessed": 1775203027286,
+      "type": "file"
+    },
+    {
+      "path": "skills/cc-migrator/scripts/backup.mjs",
+      "accessCount": 2,
+      "lastAccessed": 1775200214587,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/tvs-cc-migrator/RESTORE_GUIDE.md",
+      "accessCount": 2,
+      "lastAccessed": 1775203028909,
+      "type": "file"
+    },
+    {
+      "path": "cc-backup-2026-04-03T07-22-37/RESTORE_GUIDE.md",
+      "accessCount": 1,
+      "lastAccessed": 1775201258657,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
