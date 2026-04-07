@@ -82,6 +82,12 @@
   },
   "hotPaths": [
     {
+      "path": "views",
+      "accessCount": 9,
+      "lastAccessed": 1775483950357,
+      "type": "directory"
+    },
+    {
       "path": ".claude/skills/tvs-cc-migrator/scripts/backup.mjs",
       "accessCount": 7,
       "lastAccessed": 1775203049619,
@@ -122,6 +128,114 @@
       "accessCount": 1,
       "lastAccessed": 1775201258657,
       "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/router/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483894208,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/views/home.vue",
+      "accessCount": 1,
+      "lastAccessed": 1775483898390,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_uniapp/src/pages/home/home.vue",
+      "accessCount": 1,
+      "lastAccessed": 1775483898457,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_uniapp/src/api/views.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483903116,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/api/views.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483903168,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775483915883,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_NaiveUI_TS_PC/src/common/MessageContent/MessageContent.vue",
+      "accessCount": 1,
+      "lastAccessed": 1775483920135,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775483942142,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/styles/index.less",
+      "accessCount": 1,
+      "lastAccessed": 1775483955379,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1775483955404,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/config/config.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483955459,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/main.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483960687,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/layout/layout.vue",
+      "accessCount": 1,
+      "lastAccessed": 1775483960748,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/App.vue",
+      "accessCount": 1,
+      "lastAccessed": 1775483960799,
+      "type": "file"
+    },
+    {
+      "path": ".claude/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1775483971936,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/store/modules/mainStore.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483982925,
+      "type": "file"
+    },
+    {
+      "path": "views/vue3_vite_TS_App/src/utils/request/index.ts",
+      "accessCount": 1,
+      "lastAccessed": 1775483982984,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 1,
+      "lastAccessed": 1775484031005,
+      "type": "directory"
     }
   ],
   "userDirectives": []

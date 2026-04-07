@@ -29,7 +29,11 @@
     "pinia": "^3.0.4",
     "pinia-plugin-persistedstate": "^4.2.0",
     "vue": "^3.5.13",
-    "vue-router": "^5.0.3"
+    "vue-router": "^5.0.3",
+    "auth": "workspace:*",
+    "request": "workspace:*",
+    "store": "workspace:*",
+    "styles": "workspace:*"
   },
   "devDependencies": {
     "@eslint/compat": "^1.2.5",
