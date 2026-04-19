@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1775546809828,
+  "lastScanned": 1776218599282,
   "projectRoot": "/Users/zhanghailong/Desktop/coding/turbo-vertical-space",
   "techStack": {
     "languages": [
@@ -53,14 +53,14 @@
       "path": "core",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1775546809810,
+      "lastAccessed": 1776218599223,
       "keyFiles": []
     },
     "public": {
       "path": "public",
       "purpose": "Public files",
       "fileCount": 1,
-      "lastAccessed": 1775546809811,
+      "lastAccessed": 1776218599224,
       "keyFiles": [
         "turborepo-logo.png"
       ]
@@ -69,14 +69,14 @@
       "path": "utils",
       "purpose": "Utility functions",
       "fileCount": 0,
-      "lastAccessed": 1775546809814,
+      "lastAccessed": 1776218599224,
       "keyFiles": []
     },
     "views": {
       "path": "views",
       "purpose": "View templates",
       "fileCount": 1,
-      "lastAccessed": 1775546809814,
+      "lastAccessed": 1776218599229,
       "keyFiles": []
     }
   },
@@ -229,6 +229,18 @@
       "path": "core/store/engine/react.ts",
       "accessCount": 1,
       "lastAccessed": 1775552309241,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/tvs-cc-migrator",
+      "accessCount": 1,
+      "lastAccessed": 1776218658575,
+      "type": "directory"
+    },
+    {
+      "path": ".claude/skills/tvs-cc-migrator/scripts/backup.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1776218776972,
       "type": "file"
     }
   ],
