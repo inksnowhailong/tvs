@@ -18,6 +18,11 @@ coverage
 # Turbo
 .turbo
 
+# Agent runtime / memory artifacts
+.memory
+.omc
+.omx
+
 # Vercel
 .vercel
 

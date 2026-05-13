@@ -1,5 +1,5 @@
 {
-  "name": "@tvs/auth",
+  "name": "@tvs/request-uni",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -7,5 +7,9 @@
   "types": "./index.ts",
   "exports": {
     ".": "./index.ts"
+  },
+  "dependencies": {
+    "@tvs/auth": "workspace:*",
+    "@tvs/request": "workspace:*"
   }
 }

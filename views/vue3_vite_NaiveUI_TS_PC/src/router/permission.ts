@@ -1,4 +1,4 @@
-import { mainStore } from '@/store/modules/mainStore'
+import { mainStore } from '@/adapters/store/mainStore'
 import { Router } from 'vue-router'
 /**
  * @description: 路由拦截器
@@ -25,7 +25,7 @@ export default function permission(router: Router) {
     if (to.meta && to.meta.title) {
       document.title = to.meta.title as string
     } else {
-      document.title = mainStore.systemName
+      document.title = mainStore.$state.systemName
     }
   })
 }

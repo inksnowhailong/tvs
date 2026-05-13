@@ -1,5 +1,5 @@
 {
-  "name": "inksnow-vue3-vite-ts",
+  "name": "@tvs/view-app",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -33,9 +33,12 @@
     "@capacitor/status-bar": "^7.0.0",
     "@vicons/ionicons5": "^0.13.0",
     "@vueuse/core": "^14.2.1",
-    "axios": "^1.7.9",
-    "pinia": "^3.0.4",
-    "pinia-plugin-persistedstate": "^4.2.0",
+    "@tvs/auth": "workspace:*",
+    "@tvs/request": "workspace:*",
+    "@tvs/request-axios": "workspace:*",
+    "@tvs/store": "workspace:*",
+    "@tvs/store-adapters": "workspace:*",
+    "@tvs/styles": "workspace:*",
     "vue": "^3.5.13",
     "vue-router": "^5.0.3"
   },

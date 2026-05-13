@@ -1,0 +1,14 @@
+{
+  "name": "@tvs/store",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "./engine/index.ts",
+  "types": "./engine/index.ts",
+  "exports": {
+    ".": "./engine/index.ts"
+  },
+  "dependencies": {
+    "nanostores": "^1.2.0"
+  }
+}

@@ -11,7 +11,7 @@ export default defineConfig({
     uni['default'](),
     UnoCSS(),
     AutoImport({
-      imports: ['vue', 'pinia'],
+      imports: ['vue'],
       dts: 'src/auto-imports.d.ts'
     }) as any,
     // Icons({

@@ -1,0 +1,11 @@
+{
+  "name": "@tvs/styles",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./index.less": "./index.less",
+    "./reset.less": "./reset.less",
+    "./tools": "./tools.ts"
+  }
+}

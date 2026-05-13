@@ -1,5 +1,5 @@
 {
-  "name": "@tvs/auth",
+  "name": "@tvs/request",
   "version": "0.0.0",
   "private": true,
   "type": "module",

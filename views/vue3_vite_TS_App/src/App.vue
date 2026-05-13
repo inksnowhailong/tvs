@@ -3,14 +3,17 @@
 </template>
 
 <script setup lang="ts">
-import { mainStore } from './store/modules/mainStore'
+import { useVueStore } from '@tvs/store-adapters/vue'
+import { mainStore } from './adapters/store/mainStore'
+
+const main = useVueStore(mainStore)
 const URLThemeName = new URLSearchParams(window.location.search).get('theme')
 if (URLThemeName && ['light', 'dark'].includes(URLThemeName)) {
-  mainStore.theme = URLThemeName as 'light' | 'dark'
+  main.theme.value = URLThemeName as 'light' | 'dark'
 }
 provide(
   'themeName',
-  computed(() => mainStore.theme)
+  computed(() => main.theme.value)
 )
 
 defineOptions()

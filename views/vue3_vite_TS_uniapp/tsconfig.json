@@ -29,7 +29,6 @@
     "src/**/*.tsx", // 包含的所有 TSX 文件
     "src/**/*.vue", // 包含的所有 Vue 文件
     "components.d.ts", // 包含的组件声明文件
-    "auto-imports.d.ts", // 包含的自动导入声明文件
     "env.d.ts", // 全局类型增强
     "uno.config.ts", // 包含的 uno 配置文件
   ]

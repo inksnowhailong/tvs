@@ -1,0 +1,28 @@
+{
+  "name": "@tvs/store-adapters",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./vue": "./vue.ts",
+    "./react": "./react.ts"
+  },
+  "dependencies": {
+    "@tvs/store": "workspace:*"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "vue": "^3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14"
+  }
+}
